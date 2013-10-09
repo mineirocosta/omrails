@@ -1,0 +1,23 @@
+/*podemos usar essa fonte retirando o comentário
+$baseFontFamily: Lato;
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic);*/
+
+$navbarBackground: white;
+$btnPrimaryBackground: green;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px
+
+}
+
+@import 'bootstrap-responsive';
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
